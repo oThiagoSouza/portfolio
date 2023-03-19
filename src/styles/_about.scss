@@ -1,0 +1,23 @@
+@use 'variaveis';
+
+.about {
+    padding: 5.6vh;
+    background-color: variaveis.$bgAbout;
+
+    .container {
+        display: flex;
+        gap: 16px;
+    }
+
+    &__img {
+        max-height: 350px;
+        max-width: 600px;
+    border-radius: 10px;
+    }
+
+    &__title {
+        margin-bottom: 28px;
+        font-size: 30px;
+        color: variaveis.$sectionTitle;
+    }
+}

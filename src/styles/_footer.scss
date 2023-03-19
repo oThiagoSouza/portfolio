@@ -1,0 +1,41 @@
+@use 'variaveis';
+
+.footer {
+    background-color: variaveis.$bgContacts;
+    padding: 5.6vh;
+
+
+    &__description {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 28px;
+    }
+
+    &__links {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+
+        &__item a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        &__img {
+            max-width: 40px;
+
+        }
+    }
+}
+
+.ig {
+    margin: 0 8px;
+}
+
+.wpp {
+    margin: 0 8px;
+}
