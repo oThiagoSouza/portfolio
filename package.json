@@ -2,7 +2,6 @@
   "name": "tcodes",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "gulp",
     "dev": "gulp watch",
