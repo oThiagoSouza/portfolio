@@ -25,3 +25,37 @@
         }
     }
 }
+
+#btn-menu {
+    display: none;
+}
+
+@media(max-width:450px){
+    #btn-menu{
+        display: block;
+    }
+
+    .header__links {
+        position: absolute;
+        top: 110px;
+        left: 0px;
+        display: block;
+        background-color: variaveis.$bgHeader;
+        width: 100%;
+        z-index: 100;
+        height: calc(50vh - 110px);
+        transition: .5s;
+        overflow-y: hidden;
+        visibility: hidden;
+        
+        &__item{
+            padding: 10px 0;
+            margin-left: 20px;
+        }
+
+        &.ativo {
+            visibility: visible;
+            overflow-y: auto;
+        }
+    }
+}
