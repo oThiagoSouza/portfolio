@@ -33,6 +33,13 @@
 @media(max-width:450px){
     #btn-menu{
         display: block;
+        padding: 8px 16px;
+        border-radius: 5px;
+        color: #ccc;
+        background-color: variaveis.$bgAbout;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
     }
 
     .header__links {
@@ -43,18 +50,19 @@
         background-color: variaveis.$bgHeader;
         width: 100%;
         z-index: 100;
-        height: calc(50vh - 110px);
         transition: .5s;
         overflow-y: hidden;
         visibility: hidden;
-        
+        height: 0px;
         &__item{
             padding: 10px 0;
             margin-left: 20px;
+            border-bottom: 1px solid rgba(1,1,1,.7);
         }
 
         &.ativo {
             visibility: visible;
+            height: calc(45vh - 110px);
             overflow-y: auto;
         }
     }
