@@ -2,7 +2,7 @@
 
 .projects {
     padding: 5.6vh;
-    background-color: variaveis.$bgProjects;
+    background-image: linear-gradient(variaveis.$bgContacts, variaveis.$bgProjects);
 
     &__title {
         text-align: center;

@@ -2,7 +2,7 @@
 
 .about {
     padding: 5.6vh;
-    background-color: variaveis.$bgAbout;
+    background-image: linear-gradient(variaveis.$bgAbout, variaveis.$bgContacts);
 
     .container {
         display: flex;

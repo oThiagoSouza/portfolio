@@ -1,8 +1,9 @@
 @use 'variaveis';
 
 .footer {
-    background-color: variaveis.$bgContacts;
+    background-image: linear-gradient(variaveis.$bgProjects, variaveis.$bgHeader);
     padding: 5.6vh;
+    border-top: 1px solid #e7e7e7;
 
 
     &__description {
